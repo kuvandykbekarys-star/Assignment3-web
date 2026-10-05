@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Astana Coffee Guide</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+
+            <a class="navbar-brand" href="#">Astana Coffee</a>
+
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainNavbar">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNavbar">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#coffee-types">Coffee</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#places">Places</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQ</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Hero -->
+    <section id="home" class="py-5 bg-light">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <!-- Image -->
+                <div class="col-12 col-md-6 order-md-2 text-center mb-4 mb-md-0">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085"
+                        class="img-fluid rounded"
+                        alt="Coffee">
+
+                </div>
+
+                <!-- Text -->
+                <div class="col-12 col-md-6 order-md-1">
+
+                    <h1 class="display-5 fw-bold">
+                        Astana Coffee Guide
+                    </h1>
+
+                    <p class="lead">
+                        A simple guide for students who want to discover coffee
+                        and comfortable places in Astana.
+                    </p>
+
+                    <a href="#places" class="btn btn-dark">
+                        Explore places
+                    </a>
+
+                    <p class="mt-3 d-none d-md-block text-secondary">
+                        Find a place for studying, meeting friends or relaxing.
+                    </p>
+
+                    <p class="mt-3 d-block d-md-none text-secondary">
+                        Coffee places for your phone.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- TASK 1: My own CSS + Media Queries -->
+    <section id="coffee-types" class="coffee-section">
+
+        <h2 class="coffee-title">
+            Popular Coffee Types
+        </h2>
+
+        <p class="coffee-subtitle">
+            Three simple drinks that you can find in almost every coffee shop.
+        </p>
+
+        <div class="coffee-grid">
+
+            <article class="coffee-item">
+
+                <h3>Espresso</h3>
+
+                <p>
+                    A small and strong coffee with a rich taste.
+                    It is a base for many other coffee drinks.
+                </p>
+
+            </article>
+
+
+            <article class="coffee-item">
+
+                <h3>Cappuccino</h3>
+
+                <p>
+                    Espresso with steamed milk and milk foam.
+                    It has a softer and creamy taste.
+                </p>
+
+            </article>
+
+
+            <article class="coffee-item">
+
+                <h3>Latte</h3>
+
+                <p>
+                    Coffee with more milk and a mild taste.
+                    It is a popular choice for beginners.
+                </p>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- Bootstrap Cards -->
+    <section id="places" class="py-5">
+
+        <div class="container">
+
+            <div class="text-center mb-4">
+
+                <h2>Places for Coffee</h2>
+
+                <p class="text-secondary">
+                    Different types of places for different situations.
+                </p>
+
+            </div>
+
+
+            <div class="row g-4">
+
+                <!-- Card 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+
+                    <div class="card h-100">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Study Cafe
+                            </h5>
+
+                            <p class="card-text">
+                                A quiet place with Wi-Fi where students can
+                                work on assignments.
+                            </p>
+
+                            <span class="badge text-bg-success">
+                                Study
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Card 2 -->
+                <div class="col-12 col-md-6 col-lg-4">
+
+                    <div class="card h-100">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                City Coffee
+                            </h5>
+
+                            <p class="card-text">
+                                A modern coffee place for meeting friends
+                                and spending free time.
+                            </p>
+
+                            <span class="badge text-bg-primary">
+                                Friends
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Card 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+
+                    <div class="card h-100">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Quick Coffee
+                            </h5>
+
+                            <p class="card-text">
+                                A simple option when you need coffee
+                                before university or work.
+                            </p>
+
+                            <span class="badge text-bg-warning">
+                                Quick
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section class="py-5 bg-light">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-12 col-lg-6">
+
+                    <h2>Why Coffee?</h2>
+
+                    <p>
+                        Coffee shops are not only places to drink coffee.
+                        Students often use them to study, meet friends
+                        and work on projects.
+                    </p>
+
+                </div>
+
+                <div class="col-12 col-lg-6">
+
+                    <div class="p-4 border rounded bg-white">
+
+                        <h4>Good place for students</h4>
+
+                        <p class="mb-0">
+                            Wi-Fi, comfortable tables and a calm atmosphere
+                            can make studying easier.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FAQ Accordion -->
+    <section id="faq" class="py-5">
+
+        <div class="container">
+
+            <h2 class="text-center mb-4">
+                Frequently Asked Questions
+            </h2>
+
+            <div class="accordion" id="coffeeAccordion">
+
+                <!-- Question 1 -->
+                <div class="accordion-item">
+
+                    <h2 class="accordion-header">
+
+                        <button
+                            class="accordion-button"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#questionOne">
+
+                            What coffee is good for beginners?
+
+                        </button>
+
+                    </h2>
+
+                    <div
+                        id="questionOne"
+                        class="accordion-collapse collapse show"
+                        data-bs-parent="#coffeeAccordion">
+
+                        <div class="accordion-body">
+
+                            Latte or cappuccino can be easier for beginners
+                            because they contain milk and have a softer taste.
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Question 2 -->
+                <div class="accordion-item">
+
+                    <h2 class="accordion-header">
+
+                        <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#questionTwo">
+
+                            Can I study in a coffee shop?
+
+                        </button>
+
+                    </h2>
+
+                    <div
+                        id="questionTwo"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#coffeeAccordion">
+
+                        <div class="accordion-body">
+
+                            Yes. Many coffee shops have Wi-Fi and tables
+                            that are convenient for studying.
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Question 3 -->
+                <div class="accordion-item">
+
+                    <h2 class="accordion-header">
+
+                        <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#questionThree">
+
+                            What is the strongest coffee?
+
+                        </button>
+
+                    </h2>
+
+                    <div
+                        id="questionThree"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#coffeeAccordion">
+
+                        <div class="accordion-body">
+
+                            Espresso has a strong and concentrated coffee taste.
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+
+        <div class="container">
+
+            <p class="mb-0">
+                Astana Coffee Guide | Web Technologies Assignment 3
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Bootstrap JS -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+
+</html>

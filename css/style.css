@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* TASK 1 - Mobile First */
+
+.coffee-section {
+    padding: 50px 20px;
+    background-color: #f3eee8;
+}
+
+.coffee-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.coffee-subtitle {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.coffee-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.coffee-item {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.coffee-item h3 {
+    margin-top: 0;
+}
+
+.coffee-item p {
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
+
+/* Tablet */
+
+@media (min-width: 768px) {
+
+    .coffee-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .coffee-title {
+        font-size: 34px;
+    }
+
+    .coffee-section {
+        padding: 60px 30px;
+    }
+}
+
+
+/* Laptop */
+
+@media (min-width: 1024px) {
+
+    .coffee-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .coffee-title {
+        font-size: 40px;
+    }
+
+    .coffee-section {
+        padding: 80px 40px;
+    }
+}
